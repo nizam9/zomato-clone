@@ -1,8 +1,8 @@
-name: Build and Deploy Zomato App to DEV
+name: Build and Deploy Zomato App to PROD
 on:
   push:
     branches:
-      - dev
+      - master
 
 jobs:
   build:
@@ -35,6 +35,6 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting --project dev
+          args: deploy --only hosting --project prod
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
