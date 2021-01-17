@@ -1,7 +1,7 @@
 {
   "name": "zomato-clone",
   "short_name": "zomato-clone",
-  "theme_color": "#1976d2",
+  "theme_color": "#f66135",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
