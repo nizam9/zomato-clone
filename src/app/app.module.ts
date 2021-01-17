@@ -1,5 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { RouterModule, Routes, RouterStateSnapshot } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +17,13 @@ import { environment } from '../environments/environment';
   ],
   imports: [
     BrowserModule,
+    // HttpClient,
+    HttpClientModule,
     AppRoutingModule,
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
+
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
