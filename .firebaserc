@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "zomato-clone-10",
+    "dev": "zomato-clone-10",
+    "prod": "zomato-cp"
+  }
+}
