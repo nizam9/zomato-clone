@@ -1,0 +1,31 @@
+
+.main-sec{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 20vh;
+    background-image: linear-gradient(to right, var(--light-black) , var(--red));
+}
+.search-text{
+    box-shadow: none;
+    outline: none;
+}
+.main-sec h1 {
+    padding-bottom: 20px;
+}
+h1 span {
+    color: var(--red);
+}
+.search-box{
+ display: flex;
+
+}
+.search-icon{
+    position: relative;
+    border: 1px solid #ced4da;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
