@@ -1,4 +1,5 @@
-.title {
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+/* .title {
     color: var(--light-black);
     font-size: 2em;
     text-align: center;
@@ -29,7 +30,6 @@
     font-size: 18px;
 }
 
-/* -------------------------------- */
 .container-fluid {
     padding: 0 !important;
 }
@@ -42,12 +42,10 @@
 .search-header {
     position: relative;
     top: 10%;
-    /* background-color: seagreen; */
     width: 100%;
     height: 40vh;
 }
 .card-details {
-    /* background-color: springgreen; */
     width: 100%;
     height: 60vh;
 }
@@ -65,7 +63,118 @@
     height: 100px;
     margin: 10px;
     display: flex;
-    /* align-content: space-around; */
     justify-content: center;
     align-items: center;
+} */
+
+.container-fluid {
+    background-color: #f3f0a4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    background-color: #3e3e3e;
+    height: 60vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container1,
+.container2,
+.container3 {
+    background-color: #545454;
+    width: 80%;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* align-content: center; */
+}
+.container3 {
+    justify-content: space-around;
+}
+span{
+    font-size: 3vw;
+    /* font-weight: 500; */
+    font-family: 'Jura', sans-serif;;
+    color: red;
+    
+}
+.date {
+    background-color: #7d756f;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: center;
+}
+.month {
+    background-color: #7d756f;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: center;
+}
+.year {
+    display: flex;
+    justify-content: center;
+    background-color: #7d756f;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #3e3e3e;
+}
+.hours {
+    display: flex;
+    justify-content: center;
+    background-color: #7d756f;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #3e3e3e;
+}
+.minutes {
+    background-color: #7d756f;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #3e3e3e;
+}
+.seconds {
+    display: flex;
+    justify-content: center;
+    background-color: #7d756f;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #3e3e3e;
+}
+.ampm {
+    display: flex;
+    justify-content: center;
+    background-color: #7d756f;
+    width: 10%;
+    height: 100%;
+    border: 1px solid #3e3e3e;
+}
+.temparature {
+    display: flex;
+    justify-content: center;
+    background-color: #7d756f;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #3e3e3e;
+}
+.day {
+    display: flex;
+    justify-content: center;
+    background-color: #7d756f;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #3e3e3e;
 }
